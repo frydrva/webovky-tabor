@@ -15,7 +15,7 @@ body {
 }
 
 .logo {
-    color: #000;
+    color: #4285f4;
     font-size: 5.5em;
     font-weight: 700;
     font-family: 'Product Sans', Arial, sans-serif;
@@ -23,7 +23,7 @@ body {
     letter-spacing: -7px;
     user-select: none;
 }
-
+.logo::first-letter { color: #34a853; }
 .logo::after { content: ' '; color: #ea4335;}
 
 .search-container {
