@@ -1,0 +1,115 @@
+body {
+  font-family: "Linux Libertine", "Georgia", "Times New Roman", Times, serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #202122;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  max-width: 960px;
+  margin: 2em auto;
+  padding: 0 1em;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.mw-body {
+  padding: 2em;
+}
+
+h1 {
+  font-size: 1.8em;
+  border-bottom: 1px solid #a2a9b1;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin-top: 1.5em;
+  border-bottom: 1px solid #a2a9b1;
+  padding-bottom: 0.2em;
+}
+
+p {
+  margin: 0.5em 0 1em 0;
+}
+
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.infobox {
+  float: right;
+  clear: right;
+  margin: 0 0 1em 1em;
+  width: 220px;
+  background-color: #f8f9fa;
+  border: 1px solid #a2a9b1;
+  font-size: 88%;
+  line-height: 1.4em;
+  padding: 0.4em;
+}
+
+.infobox th {
+  background-color: #cedff2;
+  text-align: left;
+  padding: 0.25em 0.5em;
+}
+
+.infobox td {
+  padding: 0.25em 0.5em;
+  vertical-align: top;
+}
+
+.infobox .image {
+  text-align: center;
+  background-color: #fff;
+  padding: 4px;
+  border: 1px solid #a2a9b1;
+  margin: 0.5em 0;
+}
+
+.toc {
+  border: 1px solid #a2a9b1;
+  background-color: #f8f9fa;
+  padding: 1em;
+  margin: 1.5em 0;
+  width: auto;
+}
+
+.toc b {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.toc ul li {
+  margin: 0.2em 0;
+}
+
+.mw-headline {
+  scroll-margin-top: 80px; /* smooth scrolling target offset */
+}
+
+hr {
+  margin: 2em 0;
+  border: none;
+  border-top: 1px solid #a2a9b1;
+}
+
+small {
+  color: #6a737c;
+}
